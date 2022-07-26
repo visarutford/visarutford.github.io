@@ -57,7 +57,7 @@ td {
 }
 .formDiv {
     position: absolute;
-    left: 900px;
+    left: 1100px;
     top: 200px;
 
     font-weight: 700;
@@ -72,6 +72,8 @@ td {
     position: relative;
     width: 842px;
     height: 595px;
+    left: 130px;
+
     background-color: #FFFFFF;
 }
 .rectOne {
