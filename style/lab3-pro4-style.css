@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06283D;
+}
+.liBar {
+    display: inline;
+    float: left; 
+    background-color:  #06283D;
+
+    font-weight: 700;
+    font-size: 16px;
+} 
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a.highlight:hover {
+    background-color: #47B5FF;;
+}
+li a.active {
+    background-color: #1363DF;
+}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    padding-top: 7px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.tableDiv {
+    position: absolute;
+    width: 76px;
+    height: 28px;
+    left: 48px;
+    top: 525px;
+}
+.formDiv {
+    position: absolute;
+    left: 900px;
+    top: 200px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #06283D;
+}
+
+.bodyAFour {
+    /* A4 - 1 */
+    position: relative;
+    width: 842px;
+    height: 595px;
+    background-color: #FFFFFF;
+}
+.rectOne {
+    position: absolute;
+    width: 809px;
+    height: 79px;
+    left: 17px;
+    top: 63px;
+    background-color: #06283D;
+}
+.img {
+    position: absolute;
+    width: 107px;
+    height: 126px;
+    left: 129px;
+    top: 35px;
+}
+.rectTwo {
+    position: absolute;
+    width: 842px;
+    height: 20px;
+    left: 0px;
+    top: 575px;
+
+    background-color: #06283D;
+}
+.name {
+    /* VISARUT KILALAY */
+    position: absolute;
+    width: 252px;
+    height: 34px;
+    left: 391px;
+    top: 45px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+.comEn {
+    /* COMPUTER ENGINEERING */
+    position: absolute;
+    left: 392px;
+    top: 98px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #47B5FF;
+}
+/* ส่วนที่ 1 */
+/* ส่วนที่ 1 */
+/* ส่วนที่ 1 */
+/* ส่วนที่ 1 */
+/* ส่วนที่ 1 */
+.quardAbo {
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 48px;
+    top: 229px;
+
+    background-color: #B5B5B5;
+}
+.rectAbo {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 48px;
+    top: 228px;
+
+    background-color: #1363DF;
+}
+.about {
+    /* ABOUT ME */
+    position: absolute;
+    left: 50px;
+    top: 190px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.paragraphOne {
+    /* I am a 3rd year student computer engineering */
+    position: absolute;
+    width: 191px;
+    height: 72px;
+    left: 48px;
+    top: 238px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+/* ส่วนที่ 2 */
+/* ส่วนที่ 2 */
+/* ส่วนที่ 2 */
+/* ส่วนที่ 2 */
+/* ส่วนที่ 2 */
+.rectCon {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 48px;
+    top: 372px;
+
+    background: #1363DF;
+}
+.quardCon {
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 48px;
+    top: 373px;
+
+    background: #D9D9D9;
+}
+.contact {
+    position: absolute;
+    left: 50px;
+    top: 334px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.address {
+    position: absolute;
+    width: 272px;
+    height: 40px;
+    left: 48px;
+    top: 388px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.paragraphTwo {
+    position: absolute;
+    width: 272px;
+    height: 24px;
+    left: 48px;
+    top: 417px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+.email {
+    position: absolute;
+    width: 127px;
+    height: 28px;
+    left: 48px;
+    top: 438px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.paragraphThree {
+    position: absolute;
+    width: 127px;
+    height: 12px;
+    left: 48px;
+    top: 467px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+.call {
+    position: absolute;
+    width: 76px;
+    height: 28px;
+    left: 48px;
+    top: 476px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.paragraphFour {
+    position: absolute;
+    width: 76px;
+    height: 12px;
+    left: 48px;
+    top: 505px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+/* ส่วนที่ 3 */
+/* ส่วนที่ 3 */
+/* ส่วนที่ 3 */
+/* ส่วนที่ 3 */
+/* ส่วนที่ 3 */
+.experience {
+    /* EXPERIENCE */
+    position: absolute;
+    left: 378px;
+    top: 190px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.rectEx {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 372px;
+    top: 228px;
+
+    background-color: #1363DF;
+}
+.quardEx{
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 372px;
+    top: 229px;
+
+    background-color: #D9D9D9;
+}
+.vocab {
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 372px;
+    top: 238px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+.vocabGame {
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 372px;
+    top: 260px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+
+.rectEd {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 378px;
+    top: 372px;
+
+    background: #1363DF;
+}
+.quardEd{
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 378px;
+    top: 373px;
+
+    background: #D9D9D9;
+}
+.education {
+    position: absolute;
+    left: 381px;
+    top: 334px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.yearKku {
+    position: absolute;
+    width: 44px;
+    height: 30px;
+    left: 362px;
+    top: 397px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.kku {
+    position: absolute;
+    width: 142px;
+    height: 58px;
+    left: 436px;
+    top: 395px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.paragraphComEn {
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 437px;
+    top: 428px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+/* .gpaKku {
+    position: absolute;
+    width: 51px;
+    height: 12px;
+    left: 533px;
+    top: 439px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+} */
+
+.yearKkk {
+    position: absolute;
+    width: 39px;
+    height: 30px;
+    left: 362px;
+    top: 476px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.kkk {
+    position: absolute;
+    width: 142px;
+    height: 51px;
+    left: 436px;
+    top: 475px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #06283D;
+}
+.paragraphGifted {
+    position: absolute;
+    width: 119px;
+    height: 12px;
+    left: 436px;
+    top: 525px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+}
+/* .gpaKkk {
+    position: absolute;
+    width: 52px;
+    height: 12px;
+    left: 533px;
+    top: 528px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #06283D;
+} */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+/* ส่วนที่ 4 */
+.rectLang {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 644px;
+    top: 228px;
+
+    background: #1363DF;
+}
+.quardLang{
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 644px;
+    top: 229px;
+
+    background: #D9D9D9;
+}
+.languages {
+    position: absolute;
+    left: 648px;
+    top: 190px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.thai {
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    left: 647px;
+    top: 236px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.native {
+    position: absolute;
+    width: 46px;
+    height: 12px;
+    left: 701px;
+    top: 250px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    list-style-type:circle;
+    color: #06283D;
+}
+.english {
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 647px;
+    top: 256px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.beginner {
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 701px;
+    top: 270px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    list-style-type:circle;
+    color: #06283D;
+}
+/* ส่วนที่ 5 */
+/* ส่วนที่ 5 */
+/* ส่วนที่ 5 */
+/* ส่วนที่ 5 */
+/* ส่วนที่ 5 */
+.rectSkill {
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    left: 644px;
+    top: 372px;
+
+    background: #1363DF;
+}
+.quardSkill {
+    position: absolute;
+    width: 149px;
+    height: 2px;
+    left: 644px;
+    top: 373px;
+    
+    background: #D9D9D9;
+}
+.skill {
+    position: absolute;
+    left: 648px;
+    top: 334px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #06283D;
+}
+.python {
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 639px;
+    top: 388px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.fullScalcePython {
+    position: absolute;
+    width: 108px;
+    height: 5px;
+    left: 685px;
+    top: 406px;
+
+    background: #D9D9D9;
+}
+.scalePython {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    left: 685px;
+    top: 406px;
+
+    background: #47B5FF;
+}
+.java {
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    left: 639px;
+    top: 407px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.fullScalceJava {
+    position: absolute;
+    width: 108px;
+    height: 5px;
+    left: 685px;
+    top: 425px;
+
+    background: #D9D9D9;
+}
+.scaleJava {
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    left: 685px;
+    top: 425px;
+
+    background: #47B5FF;
+}
+.html {
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    left: 639px;
+    top: 430px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.fullScalceHtml {
+    position: absolute;
+    width: 108px;
+    height: 5px;
+    left: 685px;
+    top: 448px;
+
+    background: #D9D9D9;
+}
+.scaleHtml {
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    left: 685px;
+    top: 448px;
+
+    background: #47B5FF;
+}
+.css {
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    left: 639px;
+    top: 449px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #06283D;
+}
+.fullScalceCss {
+    position: absolute;
+    width: 108px;
+    height: 5px;
+    left: 685px;
+    top: 467px;
+
+    background: #D9D9D9;
+}
+.scaleCss {
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    left: 685px;
+    top: 467px;
+
+    background: #47B5FF;
+}
