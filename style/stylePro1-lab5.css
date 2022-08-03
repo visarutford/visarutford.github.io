@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+}
+@media (min-width:375px) and (max-width:667px) {
+    body {
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    li {
+        font-size: 16px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1024px) {
+    body {
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
