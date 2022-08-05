@@ -1,7 +1,7 @@
 h2 {
     text-align: center;
 }
-@media (min-width:375px) and (max-width:667px) {
+@media (min-width:375px) and (max-width:668px) {
     body {
         box-sizing: border-box;
     }
